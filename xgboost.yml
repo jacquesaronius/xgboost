@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: xgboost
+spec:
+  containers:
+  - name: xgboost
+    image: ghcr.io/jacquesaronius/xgboost
